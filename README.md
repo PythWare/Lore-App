@@ -10,7 +10,7 @@ Current features for the Container Builder script(console based):
 3. It will compress the character names and descriptions using ZLIB if it detects the compressed size of the text will be smaller than the original size.
 
 4. Adds necessary markers with each character name and description to specify for the Lore App if compression was used.
-5. 
+
 Current features for the Lore App script(GUI based using Tkinter):
 
 1. Selecting a Lore file using the "Select Lore File" button
