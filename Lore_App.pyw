@@ -38,7 +38,7 @@ class LoreApp():
                 base_name = os.path.splitext(self.filename)[0] # Strip the lore extension
                 self.ref_lore = base_name + self.ref_file # Add the .Ref extension to access the .Ref file that matches the .Lore file
                 with open(self.filename, "rb") as f1: # Open the Lore file
-                    character_count = int.from_bytes(f1.read(self.size1), "little") # get the total amount of characters in the Lore file
+                    character_count = int.from_bytes(f1.read(self.size2), "little") # get the total amount of characters in the Lore file
                     self.character_data = [] # Holds character names
                     for i in range(character_count): # loop
                         name_len = int.from_bytes(f1.read(self.size2), "little") # Character name length
