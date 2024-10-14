@@ -5,11 +5,13 @@ Current features for the Container Builder script(console based):
 
 1. The Container Builder script will create Lore file(.Lore file) after asking what you want the name of the file to be.
 
-2. It will ask for the amount of characters you want to add along with the name and description of each character.
+2. If the file is detected it will offer updating or replacing
+   
+3. It will ask for the amount of characters you want to add along with the name and description of each character.
 
-3. It will compress the character names and descriptions using ZLIB if it detects the compressed size of the text will be smaller than the original size.
+4. It will compress the character names and descriptions using ZLIB if it detects the compressed size of the text will be smaller than the original size.
 
-4. Creates the reference file(.Ref file) for the Lore file created.
+5. Creates the reference file(.Ref file) for the Lore file created.
 
 Current features for the Lore App script(GUI based using Tkinter):
 
@@ -24,4 +26,4 @@ How the Container file works:
 The Container file(the .Lore file) is a custom container file that will store all of the character names and descriptions. Each character has a few bytes worth of metadata for the Lore App's file reader to use in reading the character data.
 The metadata is the character's name length, description length, character name marker that specifies if compression was used, and description marker that specifies if compression was used. The reference file(.Ref file) is essentially a metadata file that holds offsets for character data in the Lore file.
 
-The Lore App is as I said, small and simple but it was something I wanted to make and share with everyone.
+I will be uploading version 2 soon that will support image files for displaying within the Lore App.
