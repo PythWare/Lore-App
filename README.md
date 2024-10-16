@@ -27,4 +27,4 @@ Current features for the Lore App script(GUI based using Tkinter):
 
 5. Down scales or upscales images stored within the Lore file automatically to a specific width and height so that you don't have to.
 
-To use images with the characters you need to have images placed within the folder created by the builder script. The images are then packed into the .Lore file which is a custom container format I designed.
+To use images with the characters you need to have images placed within the folder created by the builder script. The images are then packed into the .Lore file which is a custom container format I designed. The Lore App uses the .Lore file for image display once it is created, the images stored within the folder are only used for packing into the container file. Once the Lore file is created you can delete or move the images if desired, the actual display of character images is only done with the .Lore file.
