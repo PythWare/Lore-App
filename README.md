@@ -12,7 +12,7 @@ Current features for the Builder script(console based):
    
 3. It will ask for the amount of characters you want to add along with the name and description of each character.
 
-4. Asks for image to be used with the entered character(if using the image based version scripts rather than text).
+4. Asks for image to be used with the entered character(if using the Lore_Builder_Image script).
 
 5. It will compress the character names and descriptions using ZLIB if it detects the compressed size of the text will be smaller than the original size.
 
