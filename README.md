@@ -21,11 +21,9 @@ Current features for the Lore App script(GUI based using Tkinter):
 
 3. A Textbox that displays the description of the currently selected character
 
-Eventually image support for displaying within the Lore App
+4. Image display of characters created with the Lore App
 
 How the Container file works:
 
-The Container file(the .Lore file) is a custom container file that will store all of the character names and descriptions. Each character has a few bytes worth of metadata for the Lore App's file reader to use in reading the character data.
+The Container file(the .Lore file) is a custom container file that will store all of the character names, descriptions, and images of the characters(if using image based version). Each character has a few bytes worth of metadata for the Lore App's file reader to use in reading the character data.
 The metadata is the character's name length, description length, character name marker that specifies if compression was used, and description marker that specifies if compression was used. The reference file(.Ref file) is essentially a metadata file that holds offsets for character data in the Lore file.
-
-I will be uploading version 2 soon that will support image files.
