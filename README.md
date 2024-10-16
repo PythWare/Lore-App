@@ -23,7 +23,7 @@ Current features for the Lore App script(GUI based using Tkinter):
 
 4. Image display of characters created with the Lore App
 
-5. 5. Down scales or upscales images stored within the Lore file automatically to a specific width and height so that you don't have to.
+5. Down scales or upscales images stored within the Lore file automatically to a specific width and height so that you don't have to.
 
 How the Container file works:
 
