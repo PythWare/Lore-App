@@ -1,5 +1,8 @@
 # Lore-App
-A small and simple offline based Lore app that doesn't require an internet connection like online websites that contain Lore on characters in Anime, games, etc. There is nothing wrong with those websites, this is merely an attempt at making a small offline based one that uses Python and Tkinter. Credit goes to God(Christian) and I(for the coding). Currently the Builder script is console based while the Lore_App script has a GUI using Python's Tkinter. I have included two versions, the text based version and the image based version of the Lore App. The difference is that the image based version supports displaying images of characters created with the Builder script while the text based version is for anyone that doesn't want images displayed within the Lore App.
+A small and simple offline based Lore app that doesn't require an internet connection like online websites that contain Lore on characters in Anime, games, etc. There is nothing wrong with those websites, this is merely an attempt at making a small offline based one that uses Python and Tkinter. Credit goes to God(Christian) and I(for the coding). Currently the Builder script is console based while the Lore_App script has a GUI using Python's Tkinter. 
+
+I have included two versions, the text based version and the image based version of the Lore App. The difference is that the image based version supports displaying images of characters created with the Builder script while the text based version is for anyone that doesn't want images displayed within the Lore App.
+Lore_App_Text and Lore_Builder_Text scripts are for the text only version while Lore_App_Image and Lore_Builder_Image scripts are the text and character image version.
 
 Current features for the Builder script(console based):
 
