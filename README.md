@@ -32,5 +32,7 @@ Current features for the Lore App script(GUI based using Tkinter):
 
 To use images with the characters you need to have images placed within the folder created by the builder script and have the pillow library installed which can be done in the command prompt by typing "pip install pillow". The images are then packed into the .Lore file which is a custom container format I designed. The Lore App uses the .Lore file for image display once it is created, the images stored within the folder are only used for packing into the container file. Once the Lore file is created you can delete or move the images if desired, the actual display of character images is only done with the .Lore file.
 
-Example Image: ![exa1](https://github.com/user-attachments/assets/bc93bb18-d607-409e-8641-ce38c6a8edd6)
+Example Image: 
+![exa1](https://github.com/user-attachments/assets/2de0cfdd-3a7a-4350-85f7-f84a26b03757)
+
 
